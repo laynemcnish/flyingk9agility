@@ -11,7 +11,7 @@ email: flyingk9agility@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Flying K9 Agility is a competition-focused agility school located in the Oklahoma City metropolitan area.
   The school was founded in 2015 by Erika Lee and Gayle McNish.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/flyingk9agility" # the subpath of your site, e.g. /blog
 url: "http://flyingk9agility.com" # the base hostname & protocol for your site
 facebook_username: flyingk9agility
 
