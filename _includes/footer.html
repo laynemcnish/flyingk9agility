@@ -1,35 +1,20 @@
-<footer class="site-footer">
+<footer class="site-footer navbar-fixed-bottom">
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
+  <div class="wrapper container">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
+      <div class="col-md-4 pull-left">
         <ul class="social-media-list">
-          {% if site.github_username %}
+          {% if site.facebook_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {% include icon-facebook.html username=site.facebook_username %}
           </li>
           {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+          <li><a href="mailto:{{ site.email }}"><span class="email"><i class="fa fa-envelope"></i>{{ site.email }}</span></a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
       </div>
     </div>
 
