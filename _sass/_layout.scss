@@ -5,6 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background: white;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -100,11 +101,17 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background: white;
+}
+
+.navbar-fixed-bottom {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 1;
 }
 
 .contact-list,
@@ -131,7 +138,7 @@
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 1;
     padding-left: $spacing-unit / 2;
 }
 
@@ -178,6 +185,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    margin-bottom: 60px;
 }
 
 .page-heading {
