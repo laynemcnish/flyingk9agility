@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
-<form action="http://formspree.io/{{ include site.email }}" class="form form-horizontal">
-  <div class="form-group">
-    <label class="form-label">Name</label>
-    <input type="email" name="_replyto" class="form-control">
-  </div>
+<div class="container-fluid">
+  <form action="http://formspree.io/{{ include site.email }}" class="form form-horizontal">
+    <div class="form-group">
+      <label class="form-label">Name</label>
+      <input type="email" name="_replyto" class="form-control">
+    </div>
 
-  <div class="form-group">
-    <label class="form-label">Message</label>
-    <textarea name="body" class="form-control"></textarea>
-  </div>
+    <div class="form-group">
+      <label class="form-label">Message</label>
+      <textarea name="body" class="form-control"></textarea>
+    </div>
 
-  <div class="form-group">
-    <input type="submit" value="Send" class="btn btn-sm">
-  </div>
-</form>
+    <div class="form-group">
+      <input type="submit" value="Send" class="btn btn-sm">
+    </div>
+  </form>
+</div>
