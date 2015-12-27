@@ -13,8 +13,8 @@ description: > # this means to ignore newlines until "baseurl:"
   The school was founded in 2015 by Erika Lee and Gayle McNish.
 baseurl: "flyingk9agility" # use for production
 #baseurl: "" # use during development
-url: "http://laynemcnish.github.io/" # the base hostname & protocol for your site
-facebook_username: flyingk9agility
+url: "http://laynemcnish.github.io" # the base hostname & protocol for your site
+facebook_username: 115433682136799
 
 # Build settings
 markdown: kramdown
