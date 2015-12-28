@@ -5,20 +5,19 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background: #1BA7A4;
+    background: $grey-color-light;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+    font: 100 30px/1.2 'Leckerli One', Helvetica, sans-serif;
     color: $grey-color-dark;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2); 
+    line-height: 56px;
+    letter-spacing: 1px;
+    float: left;
 
     &,
     &:visited {

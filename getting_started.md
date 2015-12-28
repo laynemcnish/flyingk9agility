@@ -6,7 +6,7 @@ permalink: /getting_started/
 
 ### Interested in agility?
 
-According to the [American Kennel Club](http://www.akc.org/events/agility/what-is-agility/), “agility is designed to demonstrate a dog's willingness to work with its handler in a variety of situations. It is an athletic event that requires conditioning, concentration, training and teamwork. Dog and handlers negotiate an obstacle course racing against the clock”
+According to the [American Kennel Club](http://www.akc.org/events/agility/what-is-agility/), “agility is designed to demonstrate a dog's willingness to work with its handler in a variety of situations. It is an athletic event that requires conditioning, concentration, training and teamwork. Dog and handlers negotiate an obstacle course racing against the clock.”
 
 ### Competing in Agility
 
