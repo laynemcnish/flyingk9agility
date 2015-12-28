@@ -7,7 +7,7 @@
         <ul class="social-media-list">
           {% if site.facebook_username %}
           <li>
-            {% include icon-facebook.html username=site.facebook_username %}
+            {% include icon-facebook.html username=site.facebook_username title=site.title %}
           </li>
           {% endif %}
           <li><a href="mailto:{{ site.email }}"><span class="email"><i class="fa fa-envelope"></i>{{ site.email }}</span></a></li>
