@@ -5,9 +5,9 @@
     <div class="footer-col-wrapper">
       <div class="col-md-4 pull-left">
         <ul class="social-media-list">
-          {% if site.facebook_username %}
+          {% if site.facebook.app_id %}
           <li>
-            {% include icon-facebook.html username=site.facebook_username title=site.title %}
+            {% include icon-facebook.html username=site.facebook.app_id title=site.title %}
           </li>
           {% endif %}
           <li><a href="mailto:{{ site.email }}"><span class="email"><i class="fa fa-envelope"></i>{{ site.email }}</span></a></li>
