@@ -3,24 +3,9 @@ layout: default
 ---
 
 <div class="home">
-
-  <h3 class="page-heading">Flying K9 Agility</h3>
   <p class="description">
     Flying K9 Agility is a competition-focused agility school located in the Oklahoma City metropolitan area. The school was founded in 2015 by Erika Lee and Gayle McNish.
   </p>
 
-  <div class="front-images">
-    <div class="row">
-      <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-        <div class="thumbnail">
-          <img src={{ "/assets/pic2.jpg" | prepend: site.baseurl | prepend: site.url }} alt="image">
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-        <div class="thumbnail">
-          <img src={{ "/assets/pic1.jpg" | prepend: site.baseurl | prepend: site.url }} alt="image">
-        </div>
-      </div>
-    </div>
-  </div>
+  {% include flexslider-posts.html %}
 </div>

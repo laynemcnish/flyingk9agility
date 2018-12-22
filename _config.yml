@@ -13,12 +13,15 @@ description: >
   The school was founded in 2015 by Erika Lee and Gayle McNish.
 #baseurl: "/flyingk9agility" # use for production
 baseurl: "" # use during development
-#url: "http://localhost:4000" # development
-url: "http://www.flyingk9agility.com"
+url: "http://localhost:4000" # development
+#url: "http://www.flyingk9agility.com"
 facebook:
   app_id: 115433682136799
   publisher: 115433682136799
 author: Gayle McNish, Erika Lee
+
+collections:
+  - photos
 
 # Build settings
 markdown: kramdown

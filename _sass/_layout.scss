@@ -12,23 +12,24 @@
 }
 
 .site-title {
-    font: 100 30px/1.2 'Leckerli One', Helvetica, sans-serif;
-    color: $grey-color-dark;
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2); 
-    line-height: 56px;
-    letter-spacing: 1px;
-    float: left;
+    max-width: 300px;
+    max-height: 200px;
+    // font: 100 30px/1.2 'Leckerli One', Helvetica, sans-serif;
+    // color: $grey-color-dark;
+    // text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2); 
+    // line-height: 56px;
+    // letter-spacing: 1px;
+    // float: left;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+    // &,
+    // &:visited {
+    //     color: $grey-color-dark;
+    // }
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
-
+    // float: right;
+    // line-height: /200px;
     .menu-icon {
         display: none;
     }
